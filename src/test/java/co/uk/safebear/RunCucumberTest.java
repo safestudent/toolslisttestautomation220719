@@ -1,10 +1,22 @@
 package co.uk.safebear;
 
-import cucumber.api.CucumberOptions;
+
 import cucumber.api.junit.Cucumber;
+import cucumber.api.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty"})
+@CucumberOptions(
+        // Here is where I define what test report I get
+        plugin = {"json:target/cucumber-report/cucumber.json"},
+        // Here is where I define what tests are run (through tags)
+        tags = "not @to-do"
+
+        // This is where your Stepdefs file is located
+        // glue = "/login",
+
+        // This will show cucumber where our feature files are (if not in the default directory)
+        // features = "classpath:features"
+        )
 public class RunCucumberTest {
 }
