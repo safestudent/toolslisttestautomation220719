@@ -1,4 +1,4 @@
-package co.uk.safebear.feature;
+package co.uk.safebear;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
         // Here is where I define what test report I get
         plugin = {"json:target/cucumber-report/cucumber.json"},
         // Here is where I define what tests are run (through tags)
-        tags = "not @to-do",
+        tags = "not @to-do"
 
-        glue = "co.uk.safebear.gui"
+        // glue = "co.uk.safebear.gui"
 
         // This will show cucumber where our feature files are (if not in the default directory)
         // features = "src/test/resources/search.features"
