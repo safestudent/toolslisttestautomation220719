@@ -26,5 +26,23 @@ public class Stepdefs {
         throw new cucumber.api.PendingException();
     }
 
+    @Given("I have created a tool name {string}")
+    public void i_have_created_a_tool_name(String toolName) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
+    }
+
+    @When("I delete the tool named {string}")
+    public void i_delete_the_tool_named(String toolName) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
+    }
+
+    @Then("it no longer appears in my toolslist")
+    public void it_no_longer_appears_in_my_toolslist() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
+    }
+
 
 }

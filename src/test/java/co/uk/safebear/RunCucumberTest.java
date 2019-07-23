@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         glue = "co.uk.safebear.gui"
 
         // This will show cucumber where our feature files are (if not in the default directory)
-        // features = "classpath:features"
+        // features = "src/test/resources/search.features"
         )
 public class RunCucumberTest {
 }
