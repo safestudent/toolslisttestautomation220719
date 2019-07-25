@@ -21,7 +21,7 @@ Feature: Login
     Then the user is informed that the login is successful
     Examples:
     |username|password|
-    |tester  |letmein |
+    | tester  |letmein |
     |tester1 |letmein |
     |tester2 |letmein |
 

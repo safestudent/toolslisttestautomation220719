@@ -8,6 +8,7 @@ Feature: Deleting a tool
   * Toolslist = a list of tools the user owns
 
 
+  @to-do
   Scenario: a user deletes a tool
     Given I have created a tool name "selenium"
     When I delete the tool named "selenium"
